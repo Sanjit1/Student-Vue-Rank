@@ -3,6 +3,7 @@
 ##
 ## Get latest from https://github.com/github/gitignore/blob/master/VisualStudio.gitignore
 
+
 # User-specific files
 *.rsuser
 *.suo
@@ -349,3 +350,5 @@ healthchecksdb
 MigrationBackup/
 Student Vue Rank.pem
 Student Vue Rank.crx
+google-services.json
+
