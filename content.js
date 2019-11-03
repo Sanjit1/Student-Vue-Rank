@@ -9,5 +9,14 @@ window.addEventListener('load', function () {
     link.rel = 'shortcut icon';
     link.href = 'https://sanjit.wtf/pics/stuVueIcon.png';
     document.head.appendChild(link);
+    footer = document.getElementById("ctl00_ctl00_PXPFooter");
+    systemLinksUl = footer.getElementsByClassName("action-bar")[0].getElementsByClassName("system-links")[0];
+    sanjitWtfA = document.createElement("a");
+    sanjitWtfA.href = "https://www.sanjit.wtf/";
+    sanjitWtfA.id = "sanjitSaysCheese";
+    sanjitWtfA.innerHTML = "Messed around by Sanjit";
+    sanjitWtfLi = document.createElement("li");
+    sanjitWtfLi.appendChild(sanjitWtfA);
+    systemLinksUl.appendChild(sanjitWtfLi);
 })
 

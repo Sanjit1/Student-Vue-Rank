@@ -2,7 +2,7 @@
 	"manifest_version": 2,
 	"name": "Student VUE Show Rank",
 	"version": "1.0",
-	"description": "Shows your School Rank if student vue hides it.",
+	"description": "Shows your School Rank if Student Vue hides it.",
 	"page_action": {
 		"default_icon": {
 			"16": "images/icon-16.png",
