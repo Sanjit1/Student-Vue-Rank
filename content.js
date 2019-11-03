@@ -7,7 +7,7 @@ window.addEventListener('load', function () {
     var link = document.querySelector("link[rel*='icon']") || document.createElement('link');
     link.type = 'image/x-icon';
     link.rel = 'shortcut icon';
-    link.href = './icon.png';
+    link.href = 'https://sanjit.wtf/pics/stuVueIcon.png';
     document.head.appendChild(link);
 })
 

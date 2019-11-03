@@ -3,8 +3,13 @@
 	"name": "Student VUE Show Rank",
 	"version": "1.0",
 	"description": "Shows your School Rank if student vue hides it.",
-	"browser action": {
-		"default_icon": "icon.png"
+	"browser_action": {
+		"default_icon": {
+			"16": "icon-16.png",
+			"32": "icon-32.png",
+			"48": "icon-48.png",
+			"128": "icon-128.png"
+		}
 	},
 	"content_scripts": [
 		{
