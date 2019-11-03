@@ -1,0 +1,22 @@
+{
+	"manifest_version": 2,
+	"name": "Student VUE Show Rank",
+	"version": "1.0",
+	"description": "Shows your School Rank if student vue hides it.",
+	"browser action": {
+		"default_icon": "icon.png"
+	},
+	"content_scripts": [
+		{
+			"css": [
+				"styles.css"
+			],
+			"js": [
+				"content.js"
+			],
+			"matches": [
+				"https://sis.powayusd.com/*"
+			]
+		}
+	]
+}
