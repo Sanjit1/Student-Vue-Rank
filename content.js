@@ -4,6 +4,11 @@ window.addEventListener('load', function () {
     hiddenShitList.forEach(function (entry) {
         entry.classList.remove("hide");
     });
+    var hiddenShit = document.getElementsByClassName("hidden");
+    var hiddenShitList = [].slice.call(hiddenShit);
+    hiddenShitList.forEach(function (entry) {
+        entry.classList.remove("hidden");
+    });
     var link = document.querySelector("link[rel*='icon']") || document.createElement('link');
     link.type = 'image/x-icon';
     link.rel = 'shortcut icon';
